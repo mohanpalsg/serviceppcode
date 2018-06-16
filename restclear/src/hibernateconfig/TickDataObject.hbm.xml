@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="hibernateobjects.TickDataObject" table="tickdata">
+ 
+<composite-id>
+<key-property name="stocksymbol" column="stocksymbol"  />
+<key-property name="tickstart" column="ticktime" />
+<key-property name="duration" column="duration" />
+</composite-id>
+
+
+<property name="closeprice" column="closeprice"/>
+<property name="highprice" column="highprice"/>
+<property name="lowprice" column="lowprice"/>
+<property name="openprice" column="openprice"/>
+<property name="volume" column="volume"/>
+ 
+</class>
+</hibernate-mapping>

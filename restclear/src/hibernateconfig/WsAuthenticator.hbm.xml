@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="hibernateobjects.WsAuthenticationobject" table="keyobject">
+ 
+<id name="keyvariable" column="objId"  />
+<property name="keyvalue" column="objvalue"/>
+
+
+</class>
+</hibernate-mapping>

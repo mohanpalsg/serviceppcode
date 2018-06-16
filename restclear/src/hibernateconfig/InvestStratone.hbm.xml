@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="dataobjects.InvestStratone" table="InvestStrategyView1">
+ 
+<id name="Stocksymbol" column="stocksymbol"  />
+
+
+
+<property name="ltp" column="lastprice"/>
+<property name="trendup" column="trendup"/>
+<property name="trenddown" column="trenddown"/>
+<property name="Trendstatus" column="trendstatus"/>
+
+
+ 
+</class>
+</hibernate-mapping>

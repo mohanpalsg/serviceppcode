@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="hibernateobjects.Defaultcomplexsetting" table="defaultcomplexsetting">
+ 
+<composite-id>
+<key-property name="settingtype" column="settingtype"  />
+<key-property name="duration" column="duration" />
+</composite-id>
+
+<property name="period" column="period"/>
+<property name="avg1" column="avg1"/>
+<property name="avg2" column="avg2"/>
+<property name="adjustment" column="adjustment"/>
+<property name="factor" column="factor"/>
+
+
+
+ 
+</class>
+</hibernate-mapping>

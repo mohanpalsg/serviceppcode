@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="hibernateobjects.Nsebase" table="nsebase">
+ 
+<composite-id>
+<key-property name="stocksymbol" column="stocksymbol"  />
+<key-property name="duration" column="duration" />
+</composite-id>
+
+<property name="stochk" column="stochk"/>
+<property name="stockd" column="stochd"/>
+<property name="willr" column="willr"/>
+<property name="rsi" column="rsi"/>
+<property name="sma50" column="sma50"/>
+<property name="sma200" column="sma200"/>
+
+
+
+ 
+</class>
+</hibernate-mapping>

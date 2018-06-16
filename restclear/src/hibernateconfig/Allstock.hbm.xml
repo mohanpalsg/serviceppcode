@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="hibernateobjects.Allstock" table="allstock">
+ 
+<composite-id>
+<key-property name="stocksymbol" column="stocksymbol"  />
+<key-property name="duration" column="duration" />
+</composite-id>
+
+<property name="lastupdate" column="lastupdate"/>
+<property name="lastprice" column="lastprice"/>
+<property name="lasttradingday" column="lasttradingday"/>
+<property name="highprice" column="highprice"/>
+<property name="lowprice" column="lowprice"/>
+<property name="openprice" column="openprice"/>
+<property name="prev_closeprice" column="prevcloseprice"/>
+<property name="prev_highprice" column="prevhighprice"/>
+<property name="prev_lowprice" column="prevlowprice"/>
+<property name="prev_openprice" column="prevopenprice"/>
+ 
+</class>
+</hibernate-mapping>

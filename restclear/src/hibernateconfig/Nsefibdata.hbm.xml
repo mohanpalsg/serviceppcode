@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="hibernateobjects.Nsefibdata" table="nse_fibdata">
+ 
+<composite-id>
+<key-property name="stocksymbol" column="stocksymbol"  />
+<key-property name="duration" column="duration" />
+</composite-id>
+
+<property name="bh" column="bh"/>
+<property name="bh1" column="bh1"/>
+<property name="bh2" column="bh2"/>
+<property name="bh3" column="bh3"/>
+<property name="bh4" column="bh4"/>
+
+<property name="mid1" column="mid1"/>
+<property name="mid2" column="mid2"/>
+<property name="mid3" column="mid3"/>
+<property name="mid4" column="mid4"/>
+
+<property name="bl" column="bl"/>
+<property name="bl1" column="bl1"/>
+<property name="bl2" column="bl2"/>
+
+
+ 
+</class>
+</hibernate-mapping>

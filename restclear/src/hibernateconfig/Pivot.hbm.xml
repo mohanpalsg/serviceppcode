@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="hibernateobjects.Pivot" table="Pivot">
+ 
+<composite-id>
+<key-property name="stocksymbol" column="stocksymbol"  />
+<key-property name="pivottype" column="pivottype" />
+<key-property name="duration" column="duration" />
+</composite-id>
+
+<property name="s1" column="s1"/>
+<property name="s2" column="s2"/>
+<property name="s3" column="s3"/>
+<property name="s4" column="s4"/>
+
+
+<property name="r1" column="r1"/>
+<property name="r2" column="r2"/>
+<property name="r3" column="r3"/>
+<property name="r4" column="r4"/>
+
+<property name="pp" column="pp"/>
+
+ 
+</class>
+</hibernate-mapping>
