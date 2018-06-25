@@ -15,15 +15,15 @@
       <!-- Assume test is the database name -->
       <!--  jdbc:mysql://tddb-nsapptd.193b.starter-ca-central-1.openshiftapps.com:3306/motradedb -->   
       <property name = "hibernate.connection.url">
-     jdbc:mysql://sql9.freemysqlhosting.net:3306/sql9243028
+     jdbc:mysql://65.19.141.67:3306/citmohan_week
       </property>
       
       <property name = "hibernate.connection.username">
-        sql9243028
+        citmohan_system
       </property>
       
       <property name = "hibernate.connection.password">
-        ZuuW4xaPFp
+        jurong123
       </property>
       <property name="hibernate.current_session_context_class">thread</property>
       <!-- List of XML mapping files -->
